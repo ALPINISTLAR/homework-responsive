@@ -67,11 +67,14 @@
 
 .card__img {
   position: relative;
-  height: 14.5625rem;
+  width: 100%;
   overflow: hidden;
 }
 
 .card__img img {
+  width: 100%;
+  height: auto;
+  display: block;
   transition: all 0.25s;
 }
 
